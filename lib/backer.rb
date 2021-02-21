@@ -11,8 +11,7 @@ class Backer
   def back_project(name) 
     @backed_projects << name
     binding.pry 
-    Project.add_backer(backer)
-    @backers 
+    Project @backers << backer 
   end
 end 
 # describe 'Backer - More Advanced #back_project' do
