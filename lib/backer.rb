@@ -12,6 +12,7 @@ class Backer
     @backed_projects << name
     binding.pry 
     Project.add_backer(backer)
+    
   end
 end 
 # describe 'Backer - More Advanced #back_project' do
