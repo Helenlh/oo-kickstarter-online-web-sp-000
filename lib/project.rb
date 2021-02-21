@@ -10,6 +10,6 @@ class Project
   
   def add_backer(backer)
     @backers << backer 
-    
+    also adds the backer to the project's backers array (FAILED - 2)
    end 
 end 
