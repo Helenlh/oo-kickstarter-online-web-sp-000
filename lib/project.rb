@@ -10,7 +10,7 @@ class Project
   
   def add_backer(backer)
     @backers << backer 
-    Backer.backed_projects << self 
+    backer.backed_projects << self 
     #self in an instance refers only to the instance
    end 
 end 
