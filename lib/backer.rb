@@ -10,8 +10,6 @@ class Backer
   
   def back_project(name) 
     @backed_projects << name
-    Project.add_backer 
-     #also adds the backer to the project's backers array (FAILED - 2)
   end
 end 
 # describe 'Backer - More Advanced #back_project' do
