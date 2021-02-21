@@ -10,7 +10,7 @@ class Backer
   
   def back_project(name) 
     @backed_projects << name
-    Project.backer << backer 
+    Project.dd_backer << backer 
      #also adds the backer to the project's backers array (FAILED - 2)
   end
 end 
